@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Employees\" />
+    <Folder Include="Accounts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsultantApp.Repositories\ConsultantApp.Repositories.csproj" />
+    <ProjectReference Include="..\Models\ConsultantApp.Models.csproj" />
+  </ItemGroup>
+
+</Project>
